@@ -29,12 +29,12 @@ const Proficiency = () => {
                                             <div className="progress-percentage">
                                             <span>{skill.progressPercentage}%</span>
                                             </div>
-                                            <Progress max="100" value={skill.progressPercentage} color="info" />
+                                            <Progress max="100" value={skill.progressPercentage} color={skill.barColour} />
                                         </div>
                             })
                         }
                     </Col>
-                    <Col lg="6">
+                    <Col lg="6" className='pt-5'>
                         <GreetingLottie animationData={build}/>
                     </Col>
                 </Row>

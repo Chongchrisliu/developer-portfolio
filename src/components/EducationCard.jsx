@@ -8,13 +8,13 @@ import {
 
 import { Fade } from 'react-reveal';
 
-const EdutionCard = ({education}) => {
+const EducationCard = ({education}) => {
     return ( 
         <Fade right duration={1000} distance="40px">
             <Card className="card-lift--hover shadow mt-4">
                 <CardBody>
                     <div className="d-flex px-3">
-                    <div className="pl-4">
+                    <div>
                         <h5 className="text-info">
                         {education.schoolName}
                         </h5>
@@ -41,4 +41,4 @@ const EdutionCard = ({education}) => {
      );
 }
  
-export default EdutionCard;
+export default EducationCard;

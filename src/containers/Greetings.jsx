@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
 import { greetings } from "../portfolio";
 import code from '../assets/lottie/coding.json';
+import welcome1 from '../assets/lottie/welcome1.json';
+import welcome2 from '../assets/lottie/welcome2.json';
+import hello from '../assets/lottie/hello.json';
 
 
 import { Fade } from 'react-reveal';
@@ -44,10 +47,13 @@ const Greetings = () => {
                         {greetings.title + " "}
                       </h1>
                       <p className="lead text-white">{greetings.description}</p>
-                      <SocialLinks />
+                      <p style={{'color': '#eef', 'font-family': 'Droid serif', 'font-size': '45px', 'font-weight': 'normal', 'line-height': '48px', 'margin': '20px 0 30px'}}>
+                        {greetings.slogan}
+                      </p>
+                      <SocialLinks/>
                       <div className="btn-wrapper my-4">
                         <Button
-                          className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
+                          className="btn-white btn-icon mb-3 mb-sm-0 ml-1 mt-2"
                           color="default"
                           href={greetings.resumeLink}
                         >
@@ -61,7 +67,7 @@ const Greetings = () => {
                       </div>
                     </Col>
                     <Col lg="6">
-                      <GreetingLottie animationData={code}/>
+                      <GreetingLottie animationData={welcome1}/>
                     </Col>
                   </Row>
                 </div>

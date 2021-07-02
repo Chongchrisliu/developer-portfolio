@@ -94,18 +94,6 @@ const Navigation = () => {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href={socialLinks.twitter}
-                      target="_blank"
-                    >
-                      <i className="fa fa-twitter-square" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Twitter
-                      </span>
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      className="nav-link-icon"
                       href={socialLinks.github}
                       target="_blank"
                     >

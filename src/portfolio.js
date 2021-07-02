@@ -5,10 +5,11 @@ import github from './assets/img/icons/common/github.svg'
 import airbnb from './assets/img/icons/common/airbnbLogo.png'
 
 export const greetings = {
-    "name": "Hanzla Tauqeer",
-    "title": "Hi all, I'm Hanzla",
-    "description": "A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
-    "resumeLink": "https://cv.hanzla.ga"
+    "name": "Chris Liu",
+    "title": "Hi all, I'm Chris Chong Liu",
+    "description": "A passionate Full Stack Web Developer with extensive experience of building fully reponsive components. With every line of code, I strive to make the web a wonderful place.",
+    "slogan": "Get ready to turn ideas into reality.",
+    "resumeLink": "www.google.com"
 }
 
 export const openSource = {
@@ -22,140 +23,190 @@ export const contact = {
 export const socialLinks = {
     "facebook": "https://www.facebook.com/1hanzla100",
     "instagram": "https://www.instagram.com/1hanzla100",
-    "twitter": "https://twitter.com/1hanzla100",
     "github": "https://github.com/1hanzla100",
     "linkedin": "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/"
 }
 
 export const skillsSection = {
     title: 'What I do',
-    subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+    subTitle: 'PASSIONATE FULL STACK WEB DEVELOPER WHO LOVES TO LEARN AND MAKE A DIEERENCE',
     skills: [
       emoji(
-        '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
+        '⚡ Develop highly interactive and fully responsive User Interfaces'
       ),
-      emoji('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
-      emoji(
-        '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
-      ),
+      emoji('⚡ Oversee front-end transition to modular component styles'),
+      emoji('⚡ Extensive experience in back-end implementation of MVC/MVW'),
+      emoji('⚡ Compose powerful SQL queries to extract data into SSRS report'),
     ],
     
     softwareSkills: [
       {
-        skillName: 'html-5',
-        fontAwesomeClassname: 'vscode-icons:file-type-html',
-      },
-      {
-        skillName: 'css3',
-        fontAwesomeClassname: 'vscode-icons:file-type-css',
-      },
-      {
-        skillName: 'sass',
-        fontAwesomeClassname: 'logos:sass',
-      },
-      {
+        skillId: 'js',
         skillName: 'JavaScript',
         fontAwesomeClassname: 'logos:javascript',
       },
       {
+        skillId: 'html5',
+        skillName: 'HTML-5',
+        fontAwesomeClassname: 'vscode-icons:file-type-html',
+      },
+      {
+        skillId: 'css3',
+        skillName: 'CSS3',
+        fontAwesomeClassname: 'vscode-icons:file-type-css',
+      },
+      {
+        skillId: 'sass',
+        skillName: 'SASS',
+        fontAwesomeClassname: 'logos:sass',
+      },
+      {
+        skillId: 'ts',
         skillName: 'TypeScript',
         fontAwesomeClassname: 'logos:typescript-icon',
       },
       {
-        skillName: 'reactjs',
+        skillId: 'csharp',
+        skillName: 'C#',
+        fontAwesomeClassname: 'logos:c-sharp',
+      },
+      {
+        skillId: 'java',
+        skillName: 'Java',
+        fontAwesomeClassname: 'logos:java',
+      },
+      {
+        skillId: 'sql',
+        skillName: 'SQL / Mysql',
+        fontAwesomeClassname: 'carbon:sql',
+      },
+      // {
+      //   skillId: 'python',
+      //   skillName: 'Python',
+      //   fontAwesomeClassname: 'logos:python',
+      // },
+      {
+        skillId: 'react',
+        skillName: 'React',
         fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
       },
       {
-        skillName: 'nodejs',
-        fontAwesomeClassname: 'logos:nodejs-icon',
+        skillId: 'bootstrap',
+        skillName: 'Bootstrap',
+        fontAwesomeClassname: 'logos:bootstrap',
       },
       {
-        skillName: 'flutter',
-        fontAwesomeClassname: 'logos:flutter',
+        skillId: 'vue',
+        skillName: 'Vue',
+        fontAwesomeClassname: 'logos:vue',
       },
       {
-        skillName: 'swift',
-        fontAwesomeClassname: 'vscode-icons:file-type-swift',
+        skillId: 'webpack',
+        skillName: 'WebPack',
+        fontAwesomeClassname: 'logos:webpack',
       },
       {
-        skillName: 'npm',
-        fontAwesomeClassname: 'vscode-icons:file-type-npm',
+        skillId: 'dot-net',
+        skillName: '.NET',
+        fontAwesomeClassname: 'mdi:dot-net',
       },
       {
-        skillName: 'sql-database',
-        fontAwesomeClassname: 'vscode-icons:file-type-sql',
+        skillId: 'nuget',
+        skillName: 'Nuget',
+        fontAwesomeClassname: 'vscode-icons:file-type-nuget',
+      },
+      // {
+      //   skillId: 'npm',
+      //   skillName: 'NPM',
+      //   fontAwesomeClassname: 'logos:npm-icon',
+      // },
+      {
+        skillId: 'json',
+        skillName: 'JSON',
+        fontAwesomeClassname: 'bx:bxs-file-json',
       },
       {
-        skillName: 'mongoDB',
-        fontAwesomeClassname: 'vscode-icons:file-type-mongo',
+        skillId: 'axios',
+        skillName: 'Axios',
+        fontAwesomeClassname: 'whh:ajax',
       },
       {
-        skillName: 'aws',
+        skillId: 'aws',
+        skillName: 'AWS',
         fontAwesomeClassname: 'logos:aws',
       },
       {
-        skillName: 'firebase',
-        fontAwesomeClassname: 'logos:firebase',
+        skillId: 'azure',
+        skillName: 'Azure',
+        fontAwesomeClassname: 'logos:azure-icon',
       },
       {
-        skillName: 'python',
-        fontAwesomeClassname: 'logos:python',
+        skillId: 'git',
+        skillName: 'Git',
+        fontAwesomeClassname: 'fa-brands:git',
       },
-      {
-        skillName: 'git',
-        fontAwesomeClassname: 'logos:git-icon',
-      },
-      {
-        skillName: 'docker',
-        fontAwesomeClassname: 'logos:docker-icon',
-      },
+      // {
+      //   skillId: 'fontawesome',
+      //   skillName: 'FontAwesome',
+      //   fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
+      // },
     ],
 }
 
 
 export const SkillBars = [
     {
-      Stack: 'Frontend/Design', //Insert stack or technology you have experience in
+      Stack: 'Frontend Engineering', //Insert stack or technology you have experience in
       progressPercentage: '90', //Insert relative proficiency in percentage
+      barColour: 'success',
     },
     {
       Stack: 'Backend',
-      progressPercentage: '70',
+      progressPercentage: '80',
+      barColour: 'warning',
     },
     {
-      Stack: 'Programming',
-      progressPercentage: '60',
+      Stack: 'Algorithm / Data structure',
+      progressPercentage: '90',
+      barColour: 'info',
+    },
+    {
+      Stack: 'SQL', //Insert stack or technology you have experience in
+      progressPercentage: '90', //Insert relative proficiency in percentage
+      barColour: 'danger',
+    },
+    {
+      Stack: 'REST API',
+      progressPercentage: '80',
+      barColour: 'success',
+    },
+    {
+      Stack: 'PROJECT MANAGEMENT',
+      progressPercentage: '90',
+      barColour: 'primary',
     },
   ]
 
 export const educationInfo = [
     {
-      schoolName: 'Harvard University',
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
+      schoolName: 'University of Waterloo',
+      subHeader: 'Master of Applied Science in Electrical and Computer Engineering',
+      duration: 'September 2016 - April 2019',
+      desc: 'Orchestrated the implmentation of optimized Strassen matrix multiplciation on platform of Compute Canada.',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'Realized the optimization design of Winograd’s variant combined with stopping recursion early, linearity property, limited recursion, and block recombination.',
+        'When matrix dimension reaches 4096, time cost is greatly reduced by 77% comapring classic method.',
       ],
     },
     {
-      schoolName: 'Harvard',
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
+      schoolName: 'North China Electric Power University',
+      subHeader: 'Computer Science',
+      duration: 'September 2013 - April 2016',
+      desc: 'Algorithm Design and Analysis, Data mining, Computer Architecture, Computer Network, Internet of Things',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetfgur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'Fault Diagnosis for Power Grid Systems Based on Rough Set and Bayesian Network - ICMMITA 2015, p544 – p549.',
+        'graduated within Top 5% of class',
       ],
-    },
-    {
-      schoolName: 'Stanford University',
-      subHeader: 'Bachelor of Science in Computer Science',
-      duration: 'September 2013 - April 2017',
-      desc:
-        'Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...',
-      descBullets: ['Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit'],
     },
 ]
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import EdutionCard from "../components/EdutionCard";
+import EducationCard from "../components/EducationCard";
 import { educationInfo } from "../portfolio";
 import {
     Container,
@@ -9,7 +9,7 @@ import {
 
 const Edution = () => {
     return ( 
-        <section className="section pb-0 bg-gradient-info my-5">
+        <section className="section pb-0 bg-gradient-info my-5 pb-5">
             <Container>
                 <div className="d-flex px-3">
                     <div>
@@ -21,10 +21,10 @@ const Edution = () => {
                         <h4 className="display-3 text-white">Education</h4>
                     </div>
                 </div>
-                <Row className="row-grid align-items-center">
+                <Row className="row-grid align-items-center mt-5">
                     {
                         educationInfo.map(info => {
-                            return  <Col className="order-lg-1" lg="6"  key={info.schoolName}><EdutionCard education={info} /></Col>
+                            return  <Col className="order-lg-1" lg="6"  key={info.schoolName}><EducationCard education={info} /></Col>
                         })
                     }
                 </Row>

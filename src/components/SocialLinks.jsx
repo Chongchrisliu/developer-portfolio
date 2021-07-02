@@ -7,16 +7,6 @@ import { socialLinks } from "../portfolio";
 const SocialLinks = () => {
     return ( 
         <div className="btn-wrapper text-lg">
-            <Button
-                  className="btn-icon-only rounded-circle"
-                  color="twitter"
-                  href={socialLinks.twitter}
-                  target="_blank"
-                >
-                  <span className="btn-inner--icon">
-                    <i className="fa fa-twitter" />
-                  </span>
-                </Button>
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="facebook"
@@ -24,7 +14,7 @@ const SocialLinks = () => {
                   target="_blank"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-facebook-square" />
+                    <i style={{'font-size':'20px'}} className="fa fa-facebook-square mt-2" />
                   </span>
                 </Button>
                 <Button
@@ -34,7 +24,7 @@ const SocialLinks = () => {
                   target="_blank"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-instagram" />
+                    <i style={{'font-size':'20px'}} className="fa fa-instagram mt-2" />
                   </span>
                 </Button>
                 <Button
@@ -44,7 +34,7 @@ const SocialLinks = () => {
                   target="_blank"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-github" />
+                    <i style={{'font-size':'23px', 'margin-top': '6px'}} className="fa fa-github" />
                   </span>
                 </Button>
                 <Button
@@ -54,7 +44,7 @@ const SocialLinks = () => {
                   target="_blank"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-linkedin" />
+                    <i style={{'font-size':'20px'}} className="fa fa-linkedin mt-2 ml-1" />
                   </span>
                 </Button>
         </div>

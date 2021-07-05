@@ -192,7 +192,7 @@ export const educationInfo = [
       schoolName: 'University of Waterloo',
       subHeader: 'Master of Applied Science in Electrical and Computer Engineering',
       duration: 'September 2016 - April 2019',
-      desc: 'Orchestrated the implmentation of optimized Strassen matrix multiplciation on platform of Compute Canada.',
+      desc: 'Orchestrated the implmentation of optimized Strassen matrix multiplciation on the platform of Compute Canada.',
       descBullets: [
         'Realized the optimization design of Winograd’s variant combined with stopping recursion early, linearity property, limited recursion, and block recombination.',
         'When matrix dimension reaches 4096, time cost is greatly reduced by 77% comapring classic method.',
@@ -205,17 +205,17 @@ export const educationInfo = [
       desc: 'Algorithm Design and Analysis, Data mining, Computer Architecture, Computer Network, Internet of Things',
       descBullets: [
         'Fault Diagnosis for Power Grid Systems Based on Rough Set and Bayesian Network - ICMMITA 2015, p544 – p549.',
-        'graduated within Top 5% of class',
+        'Graduated within Top 5% of class.',
       ],
     },
 ]
 
 export const experience = [
   {
-    role: 'Software Engineer',
-    company: 'Google',
+    role: 'Web Application Developer',
+    company: 'T&T, Loblaw Companies Ltd.',
     companylogo: googlelogo,
-    date: 'June 2018 – Present',
+    date: 'October 2020 – Present',
     desc:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     descBullets: [
@@ -225,17 +225,17 @@ export const experience = [
   },
   {
     role: 'Front-End Developer',
-    company: 'Github',
+    company: 'SomoPlay Inc.',
     companylogo: github,
-    date: 'May 2017 – May 2018',
+    date: 'January 2020 – September 2020',
     desc:
       'Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
   {
-    role: 'Software Engineer Intern',
-    company: 'Airbnb',
+    role: 'Research Assistant',
+    company: 'University of Waterloo',
     companylogo: airbnb,
-    date: 'Jan 2015 – Sep 2015',
+    date: 'April 2019 – December 2019',
     desc:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },

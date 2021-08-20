@@ -1,9 +1,6 @@
 import React, { useEffect } from "react";
 import { greetings } from "../portfolio";
-import code from '../assets/lottie/coding.json';
 import welcome1 from '../assets/lottie/welcome1.json';
-import welcome2 from '../assets/lottie/welcome2.json';
-import hello from '../assets/lottie/hello.json';
 
 
 import { Fade } from 'react-reveal';
@@ -55,13 +52,15 @@ const Greetings = () => {
                         <Button
                           className="btn-white btn-icon mb-3 mb-sm-0 ml-1 mt-2"
                           color="default"
-                          href={greetings.resumeLink}
+                          onClick={()=>{
+                            window.location.href = `mailto:${'chongchrisliu@gmail.com'}`;
+                          }}
                         >
                           <span className="btn-inner--icon mr-1">
                             <i className="fa fa-file" />
                           </span>
                           <span className="btn-inner--text">
-                            See My Resume
+                            Message me
                           </span>
                         </Button>
                       </div>

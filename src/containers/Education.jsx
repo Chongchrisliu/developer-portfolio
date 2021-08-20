@@ -6,6 +6,8 @@ import {
     Row,
     Col
 } from "reactstrap";
+import education from "../assets/lottie/education";
+import GreetingLottie from "../components/DisplayLottie";
 
 const Edution = () => {
     return ( 
@@ -21,13 +23,21 @@ const Edution = () => {
                         <h4 className="display-3 text-white">Education</h4>
                     </div>
                 </div>
-                <Row className="row-grid align-items-center mt-5">
-                    {
-                        educationInfo.map(info => {
-                            return  <Col className="order-lg-1" lg="6"  key={info.schoolName}><EducationCard education={info} /></Col>
-                        })
-                    }
+                <Row>
+                    <Col lg="5" style={{'padding-right':'50px'}}>
+                        <GreetingLottie animationData={education}/>
+                    </Col>
+                    <Col lg="7">
+                        <Row className="row-grid align-items-center mt-2 mb-5">
+                        {
+                            educationInfo.map(info => {
+                                return  <Row className="order-lg-1" key={info.schoolName}><EducationCard education={info} /></Row>
+                            })
+                        }
+                        </Row>
+                    </Col>
                 </Row>
+                
             </Container>
             <div className="separator separator-bottom separator-skew zindex-100">
               <svg

@@ -1,5 +1,5 @@
 import React from 'react';
-import build from "../assets/lottie/build";
+import build from "../assets/lottie/technology";
 
 import { SkillBars } from "../portfolio";
 import {

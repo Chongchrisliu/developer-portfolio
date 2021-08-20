@@ -1,8 +1,11 @@
 import emoji from 'react-easy-emoji';
 
-import googlelogo from './assets/img/icons/common/google.svg'
-import github from './assets/img/icons/common/github.svg'
-import airbnb from './assets/img/icons/common/airbnbLogo.png'
+import SomoPlay from './assets/img/icons/common/SomoPlay.png';
+import TT from './assets/img/icons/common/T&T.png';
+import AndyExpress from './assets/img/icons/common/AndyExpress.png';
+import GoToCanada from './assets/img/icons/common/GoToCanada.png';
+import WeFunDate from './assets/img/icons/common/WeFunDate.png';
+
 
 export const greetings = {
     "name": "Chris Liu",
@@ -12,19 +15,15 @@ export const greetings = {
     "resumeLink": "www.google.com"
 }
 
-export const openSource = {
-  githubUserName: '1hanzla100',
-};
-
 export const contact = {
   
 }
 
 export const socialLinks = {
-    "facebook": "https://www.facebook.com/1hanzla100",
-    "instagram": "https://www.instagram.com/1hanzla100",
-    "github": "https://github.com/1hanzla100",
-    "linkedin": "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/"
+    "facebook": "https://www.facebook.com/profile.php?id=100013837660586",
+    "instagram": "https://www.instagram.com/chong.chris.liu/",
+    "github": "https://github.com/Chongchrisliu",
+    "linkedin": "https://www.linkedin.com/in/chongchongchrisliu/"
 }
 
 export const skillsSection = {
@@ -192,70 +191,76 @@ export const educationInfo = [
       schoolName: 'University of Waterloo',
       subHeader: 'Master of Applied Science in Electrical and Computer Engineering',
       duration: 'September 2016 - April 2019',
-      desc: 'Orchestrated the implmentation of optimized Strassen matrix multiplciation on the platform of Compute Canada.',
+      course: 'Algorithm Design and Analysis, Component Based Software, Communication Security, Cryptographic Computations',
+      desc: 'Orchestrated the implmentation of optimized Strassen matrix multiplciation with time complexity O(n^log2(7)) on the platform of Compute Canada.',
       descBullets: [
         'Realized the optimization design of Winograd’s variant combined with stopping recursion early, linearity property, limited recursion, and block recombination.',
-        'When matrix dimension reaches 4096, time cost is greatly reduced by 77% comapring classic method.',
+        'When matrix dimension reaches 4096, time cost is greatly reduced by 77% compared with classiccal O(n^3) method.',
       ],
     },
-    {
-      schoolName: 'North China Electric Power University',
-      subHeader: 'Computer Science',
-      duration: 'September 2013 - April 2016',
-      desc: 'Algorithm Design and Analysis, Data mining, Computer Architecture, Computer Network, Internet of Things',
-      descBullets: [
-        'Fault Diagnosis for Power Grid Systems Based on Rough Set and Bayesian Network - ICMMITA 2015, p544 – p549.',
-        'Graduated within Top 5% of class.',
-      ],
-    },
+    // {
+    //   schoolName: 'North China Electric Power University',
+    //   subHeader: 'Computer Science',
+    //   duration: 'September 2013 - April 2016',
+    //   desc: 'Algorithm Design and Analysis, Data mining, Computer Architecture, Computer Network, Internet of Things',
+    //   descBullets: [
+    //     'Fault Diagnosis for Power Grid Systems Based on Rough Set and Bayesian Network - ICMMITA 2015, p544 – p549.',
+    //     'Graduated within Top 5% of class.',
+    //   ],
+    // },
 ]
 
 export const experience = [
   {
     role: 'Web Application Developer',
-    company: 'T&T, Loblaw Companies Ltd.',
-    companylogo: googlelogo,
+    company: 'T&T Supermarket, Loblaw Companies Ltd.',
+    link: 'https://www.tntsupermarket.com',
+    companylogo: TT,
     date: 'October 2020 – Present',
     desc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Collaborate with a cross-functional team to develop ERP new features, optimize code, and upgrade system.',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      'Mobilize the development and launch of Fulfillment Department yearly major projects - Order Refill, to greatly reduce the order and items out-of-stock rate.',
+      'Motivate the upgrade of front-end system including webpack, React, and packages to serve front-end engineering.',
+      'Lead the development of multiple-language translation function using i18n to accomplish internationalization.',
+      'Upgrade HR Applicant Tracking system using Always Encrypted for SQL Server to prevent sensitive data being revealed.',
     ],
   },
   {
     role: 'Front-End Developer',
     company: 'SomoPlay Inc.',
-    companylogo: github,
-    date: 'January 2020 – September 2020',
+    link: 'https://somoplay.com/#/home',
+    companylogo: SomoPlay,
+    date: 'January 2020 – October 2020',
     desc:
-      'Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
-  {
-    role: 'Research Assistant',
-    company: 'University of Waterloo',
-    companylogo: airbnb,
-    date: 'April 2019 – December 2019',
-    desc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Develop reusable front-end components with Vue and React to build fully responsive and interactive web applications.',
+    descBullets: [
+      'Applied React Hooks and Vue Composition API to Compose UI components to enrich component library and enhance system maintainability.',
+      'Translated UI wireframes using Bootstrap, Element UI, Material UI to enhance responsive and interactive features.',
+      'Took advantage of CSS3 Media Queries to deliver a pixel perfect layout suited in different devices.',
+      'Used Axios/SuperAgent to interact with RESTful APIs to simplify asynchronous requests and CRUD operations.',
+    ]
+      
   },
 ]
 
 export const projects = [
   {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    name: "We Fun Date",
+    desc: "WeFunDate is an online dating website exclusively focused on matching Chinese-Canadians. Its matching algorithm places special emphasis on Chinese-relevant charateristics with premium membership and live chat functionalities.",
+    stack: "Vue, Vuex, Vue Router, Element UI, Bootstrap, SaSS, Moment.js, Git",
+    image: WeFunDate,
   },
   {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    name: "Go To Canada",
+    desc: "GoToCanada is an online web application for canadian colleges and educational institutes to recruit international students and review their applications. It also serves as an online portal for international students and agents to submit applications, make payments and check the status of the applications.",
+    stack: "React.js, React Hooks, Redux, React Router, material UI, Animate.css, NProgress.js, Axios, REST API",
+    image: GoToCanada,
   },
   {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    link: {
-      name: "hanzla",
-      url: "kasjfklsdjf"
-    }
+    name: "Andy Express",
+    desc: "Andy Express is an express platform website with Mandarin-English bilingual model to boost business focusing on cross-border e-commerce and international transportation.",
+    stack: "ES6, Vue Composition API, Element UI, Bootstrap, CSS Media Queries, Express.js, MongoDB, Amazon S3",
+    image: AndyExpress,
   }
 ]

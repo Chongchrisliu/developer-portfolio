@@ -1,5 +1,6 @@
 import emoji from 'react-easy-emoji';
 
+import Scotia from './assets/img/icons/common/scotiabank.svg';
 import SomoPlay from './assets/img/icons/common/SomoPlay.png';
 import TT from './assets/img/icons/common/T&T.png';
 import AndyExpress from './assets/img/icons/common/AndyExpress.png';
@@ -10,7 +11,7 @@ import WeFunDate from './assets/img/icons/common/WeFunDate.png';
 export const greetings = {
     "name": "Chris Liu",
     "title": "Hi all, I'm Chris Chong Liu",
-    "description": "A passionate Full Stack Web Developer with extensive experience of building fully reponsive components. With every line of code, I strive to make the web a wonderful place.",
+    "description": "A passionate Full Stack Web Developer with extensive experience of building fully reponsive and highly interactive components. With every line of code, I strive to make the web a wonderful place.",
     "slogan": "Get ready to turn ideas into reality.",
     "resumeLink": "www.google.com"
 }
@@ -39,6 +40,11 @@ export const skillsSection = {
     ],
     
     softwareSkills: [
+      {
+        skillId: 'nodejs',
+        skillName: 'Node.js',
+        fontAwesomeClassname: 'logos:nodejs',
+      },
       {
         skillId: 'js',
         skillName: 'JavaScript',
@@ -217,18 +223,31 @@ export const educationInfo = [
 
 export const experience = [
   {
+    role: 'Full Stack Developer',
+    company: 'Scotiabank Digital',
+    link: 'https://www.scotiabank.com/ca/en/about.html',
+    companylogo: Scotia,
+    date: 'October 2021 – Present',
+    desc:
+      'Involved in Digital Engineering Operation team to support Scotiabank online banking and other React applications.',
+    descBullets: [
+      'Composed well designed, testable, efficient code following Scotiabank software development practices based on Node.js technique stack.',
+      'Leveraged Splunk to monitor and analyze Scotiabank online banking services to produce alerts and visualizations.',
+    ],
+  },
+  {
     role: 'Web Application Developer',
     company: 'T&T Supermarket, Loblaw Companies Ltd.',
     link: 'https://www.tntsupermarket.com',
     companylogo: TT,
-    date: 'October 2020 – Present',
+    date: 'October 2020 – October 2020',
     desc:
-      'Collaborate with a cross-functional team to develop ERP new features, optimize code, and upgrade system.',
+      'Collaborated with a cross-functional team to develop ERP new features, optimize code, and upgrade system.',
     descBullets: [
-      'Mobilize the development and launch of Fulfillment Department yearly major projects - Order Refill, to greatly reduce the order and items out-of-stock rate.',
-      'Motivate the upgrade of front-end system including webpack, React, and packages to serve front-end engineering.',
-      'Lead the development of multiple-language translation function using i18n to accomplish internationalization.',
-      'Upgrade HR Applicant Tracking system using Always Encrypted for SQL Server to prevent sensitive data being revealed.',
+      'Mobilized the development and launch of Fulfillment Department yearly major projects - Order Refill, to greatly reduce the order and items out-of-stock rate.',
+      'Motivated the upgrade of front-end system including webpack, React, and packages to serve front-end engineering.',
+      'Led the development of multiple-language translation function using i18n to accomplish internationalization.',
+      'Upgraded HR Applicant Tracking system using Always Encrypted for SQL Server to prevent sensitive data being revealed.',
     ],
   },
   {
